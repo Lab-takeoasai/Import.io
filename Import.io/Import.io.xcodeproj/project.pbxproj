@@ -14,7 +14,6 @@
 		D9B68CE41C8F75AB009325F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B68CE21C8F75AB009325F6 /* LaunchScreen.storyboard */; };
 		D9B68CEF1C8F75AB009325F6 /* Import_ioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B68CEE1C8F75AB009325F6 /* Import_ioTests.swift */; };
 		D9B68CFA1C8F75AB009325F6 /* Import_ioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B68CF91C8F75AB009325F6 /* Import_ioUITests.swift */; };
-		D9B68D0B1C8F7B6A009325F6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B68D071C8F7B6A009325F6 /* Alamofire.framework */; };
 		D9B68D0C1C8F7B6A009325F6 /* OMGHTTPURLRQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B68D081C8F7B6A009325F6 /* OMGHTTPURLRQ.framework */; };
 		D9B68D0D1C8F7B6A009325F6 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B68D091C8F7B6A009325F6 /* PromiseKit.framework */; };
 		D9B68D0E1C8F7B6A009325F6 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B68D0A1C8F7B6A009325F6 /* SwiftyJSON.framework */; };
@@ -23,6 +22,7 @@
 		D9B68D191C8F7C57009325F6 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B68D181C8F7C57009325F6 /* File.swift */; };
 		D9B68D1A1C8F7C57009325F6 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B68D181C8F7C57009325F6 /* File.swift */; };
 		D9B68D1D1C8F7CB1009325F6 /* TestSampleQuick.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B68D1C1C8F7CB1009325F6 /* TestSampleQuick.swift */; };
+		D9C740351C8F857D00A9E059 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B68D071C8F7B6A009325F6 /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9B68D0B1C8F7B6A009325F6 /* Alamofire.framework in Frameworks */,
+				D9C740351C8F857D00A9E059 /* Alamofire.framework in Frameworks */,
 				D9B68D0C1C8F7B6A009325F6 /* OMGHTTPURLRQ.framework in Frameworks */,
 				D9B68D0D1C8F7B6A009325F6 /* PromiseKit.framework in Frameworks */,
 				D9B68D0E1C8F7B6A009325F6 /* SwiftyJSON.framework in Frameworks */,

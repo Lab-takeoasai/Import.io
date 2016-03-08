@@ -7,6 +7,13 @@
 //
 
 import Foundation
+import Alamofire
+
+class Scrap {
+    init() {
+        
+    }
+}
 
 
 class Animal {

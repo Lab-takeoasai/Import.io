@@ -2,6 +2,21 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Import.io/Carthage/Checkouts/SwiftyJSON/SwiftyJSON.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Import.io/Carthage/Checkouts/PromiseKit/PromiseKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Import.io/Carthage/Checkouts/OMGHTTPURLRQ/OMGHTTPURLRQ.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Import.io/Carthage/Checkouts/Alamofire/Alamofire.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Import.io/Import.io.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MyPlayground.playground">
    </FileRef>
 </Workspace>
