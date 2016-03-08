@@ -14,6 +14,15 @@
 		D9B68CE41C8F75AB009325F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B68CE21C8F75AB009325F6 /* LaunchScreen.storyboard */; };
 		D9B68CEF1C8F75AB009325F6 /* Import_ioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B68CEE1C8F75AB009325F6 /* Import_ioTests.swift */; };
 		D9B68CFA1C8F75AB009325F6 /* Import_ioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B68CF91C8F75AB009325F6 /* Import_ioUITests.swift */; };
+		D9B68D0B1C8F7B6A009325F6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B68D071C8F7B6A009325F6 /* Alamofire.framework */; };
+		D9B68D0C1C8F7B6A009325F6 /* OMGHTTPURLRQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B68D081C8F7B6A009325F6 /* OMGHTTPURLRQ.framework */; };
+		D9B68D0D1C8F7B6A009325F6 /* PromiseKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B68D091C8F7B6A009325F6 /* PromiseKit.framework */; };
+		D9B68D0E1C8F7B6A009325F6 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B68D0A1C8F7B6A009325F6 /* SwiftyJSON.framework */; };
+		D9B68D111C8F7B91009325F6 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B68D0F1C8F7B91009325F6 /* Nimble.framework */; };
+		D9B68D121C8F7B91009325F6 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9B68D101C8F7B91009325F6 /* Quick.framework */; };
+		D9B68D191C8F7C57009325F6 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B68D181C8F7C57009325F6 /* File.swift */; };
+		D9B68D1A1C8F7C57009325F6 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B68D181C8F7C57009325F6 /* File.swift */; };
+		D9B68D1D1C8F7CB1009325F6 /* TestSampleQuick.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B68D1C1C8F7CB1009325F6 /* TestSampleQuick.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +42,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D9B68D141C8F7BF9009325F6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		D9B68CD61C8F75AB009325F6 /* Import.io.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Import.io.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B68CD91C8F75AB009325F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +68,14 @@
 		D9B68CF51C8F75AB009325F6 /* Import.ioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Import.ioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B68CF91C8F75AB009325F6 /* Import_ioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Import_ioUITests.swift; sourceTree = "<group>"; };
 		D9B68CFB1C8F75AB009325F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9B68D071C8F7B6A009325F6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		D9B68D081C8F7B6A009325F6 /* OMGHTTPURLRQ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OMGHTTPURLRQ.framework; path = Carthage/Build/iOS/OMGHTTPURLRQ.framework; sourceTree = "<group>"; };
+		D9B68D091C8F7B6A009325F6 /* PromiseKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PromiseKit.framework; path = Carthage/Build/iOS/PromiseKit.framework; sourceTree = "<group>"; };
+		D9B68D0A1C8F7B6A009325F6 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		D9B68D0F1C8F7B91009325F6 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		D9B68D101C8F7B91009325F6 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		D9B68D181C8F7C57009325F6 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = File.swift; path = Classes/File.swift; sourceTree = SOURCE_ROOT; };
+		D9B68D1C1C8F7CB1009325F6 /* TestSampleQuick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSampleQuick.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +83,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9B68D0B1C8F7B6A009325F6 /* Alamofire.framework in Frameworks */,
+				D9B68D0C1C8F7B6A009325F6 /* OMGHTTPURLRQ.framework in Frameworks */,
+				D9B68D0D1C8F7B6A009325F6 /* PromiseKit.framework in Frameworks */,
+				D9B68D0E1C8F7B6A009325F6 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9B68D111C8F7B91009325F6 /* Nimble.framework in Frameworks */,
+				D9B68D121C8F7B91009325F6 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +115,7 @@
 				D9B68CD81C8F75AB009325F6 /* Import.io */,
 				D9B68CED1C8F75AB009325F6 /* Import.ioTests */,
 				D9B68CF81C8F75AB009325F6 /* Import.ioUITests */,
+				D9B68D171C8F7C2A009325F6 /* Frameworks */,
 				D9B68CD71C8F75AB009325F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,6 +135,7 @@
 			children = (
 				D9B68CD91C8F75AB009325F6 /* AppDelegate.swift */,
 				D9B68CDB1C8F75AB009325F6 /* ViewController.swift */,
+				D9B68D1B1C8F7C68009325F6 /* Classes */,
 				D9B68CDD1C8F75AB009325F6 /* Main.storyboard */,
 				D9B68CE01C8F75AB009325F6 /* Assets.xcassets */,
 				D9B68CE21C8F75AB009325F6 /* LaunchScreen.storyboard */,
@@ -111,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				D9B68CEE1C8F75AB009325F6 /* Import_ioTests.swift */,
+				D9B68D1C1C8F7CB1009325F6 /* TestSampleQuick.swift */,
 				D9B68CF01C8F75AB009325F6 /* Info.plist */,
 			);
 			path = Import.ioTests;
@@ -125,6 +163,28 @@
 			path = Import.ioUITests;
 			sourceTree = "<group>";
 		};
+		D9B68D171C8F7C2A009325F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9B68D0F1C8F7B91009325F6 /* Nimble.framework */,
+				D9B68D101C8F7B91009325F6 /* Quick.framework */,
+				D9B68D071C8F7B6A009325F6 /* Alamofire.framework */,
+				D9B68D081C8F7B6A009325F6 /* OMGHTTPURLRQ.framework */,
+				D9B68D091C8F7B6A009325F6 /* PromiseKit.framework */,
+				D9B68D0A1C8F7B6A009325F6 /* SwiftyJSON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9B68D1B1C8F7C68009325F6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D9B68D181C8F7C57009325F6 /* File.swift */,
+			);
+			name = Classes;
+			path = Import.ioTests;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +195,7 @@
 				D9B68CD21C8F75AB009325F6 /* Sources */,
 				D9B68CD31C8F75AB009325F6 /* Frameworks */,
 				D9B68CD41C8F75AB009325F6 /* Resources */,
+				D9B68D131C8F7BB6009325F6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -152,6 +213,8 @@
 				D9B68CE61C8F75AB009325F6 /* Sources */,
 				D9B68CE71C8F75AB009325F6 /* Frameworks */,
 				D9B68CE81C8F75AB009325F6 /* Resources */,
+				D9B68D141C8F7BF9009325F6 /* CopyFiles */,
+				D9C740171C8F7F8900A9E059 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -254,12 +317,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D9B68D131C8F7BB6009325F6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/OMGHTTPURLRQ.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PromiseKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		D9C740171C8F7F8900A9E059 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D9B68CD21C8F75AB009325F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D9B68CDC1C8F75AB009325F6 /* ViewController.swift in Sources */,
+				D9B68D191C8F7C57009325F6 /* File.swift in Sources */,
 				D9B68CDA1C8F75AB009325F6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +367,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9B68D1D1C8F7CB1009325F6 /* TestSampleQuick.swift in Sources */,
 				D9B68CEF1C8F75AB009325F6 /* Import_ioTests.swift in Sources */,
+				D9B68D1A1C8F7C57009325F6 /* File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +503,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Import.io/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "takeo.asai.Import-io";
@@ -413,6 +518,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Import.io/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "takeo.asai.Import-io";
@@ -424,6 +533,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Import.ioTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "takeo.asai.Import-ioTests";
@@ -436,6 +549,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Import.ioTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "takeo.asai.Import-ioTests";
@@ -487,6 +604,7 @@
 				D9B68D001C8F75AB009325F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9B68D011C8F75AB009325F6 /* Build configuration list for PBXNativeTarget "Import.ioTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +613,7 @@
 				D9B68D031C8F75AB009325F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9B68D041C8F75AB009325F6 /* Build configuration list for PBXNativeTarget "Import.ioUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +622,7 @@
 				D9B68D061C8F75AB009325F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
